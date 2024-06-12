@@ -4,7 +4,7 @@ import cv2
 file_name = "C:\\Users\\P.Andishe\\Desktop\\New folder (5)\\uni.jpg"
 
 ## لود کردن تصویر
-image = cv2.imread(f'.\\{file_name}', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread(f'{file_name}', cv2.IMREAD_GRAYSCALE)
 image_array = np.array(image)
 
 ## تابع کانوولوشن دو بعدی
